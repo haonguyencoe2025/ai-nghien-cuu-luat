@@ -5,7 +5,7 @@ import pdfplumber
 import re
 
 # Tạo pipeline trả lời câu hỏi
-qa_pipeline = pipeline("question-answering", framework="pt")
+qa_pipeline = pipeline("question-answering", framework="tf")
 
 # Hàm trích xuất văn bản từ PDF
 def extract_text_from_pdf(pdf_file):
