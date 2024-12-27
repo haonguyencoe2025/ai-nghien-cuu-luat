@@ -5,7 +5,7 @@ import pdfplumber
 import re
 
 # Tạo pipeline trả lời câu hỏi
-qa_pipeline = pipeline("question-answering", model="deepset/roberta-base-squad2")
+qa_pipeline = pipeline("question-answering")
 
 # Hàm trích xuất văn bản từ PDF
 def extract_text_from_pdf(pdf_file):
